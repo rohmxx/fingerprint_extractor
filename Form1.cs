@@ -98,7 +98,7 @@ namespace Fingerprint_Scanner
                     }
                     this.Invoke((MethodInvoker)delegate ()
                     {
-                        richTextBox1.AppendText("MENCARI\n");
+                        richTextBox1.Text = "MENCARI\n";
                     });
                     Thread.Sleep(500);
                 }
@@ -126,8 +126,7 @@ namespace Fingerprint_Scanner
                             if (serialPort1.BytesToRead >= 12) { serialPort1.Read(read_buffer, 0, 12); }
                             this.Invoke((MethodInvoker)delegate ()
                             {
-                                richTextBox1.AppendText(string.Join(", ", read_buffer));
-                                richTextBox1.AppendText("\n");
+                                richTextBox1.Text = "Tempelkan Jari";
                             });
                             if (read_buffer[9] == 0x00 && read_buffer[11] == 0x0A)
                             {
@@ -149,8 +148,7 @@ namespace Fingerprint_Scanner
                             if (serialPort1.BytesToRead >= 12) { serialPort1.Read(read_buffer, 0, 12); }
                             this.Invoke((MethodInvoker)delegate ()
                             {
-                                richTextBox1.AppendText(string.Join(", ", read_buffer[9]));
-                                richTextBox1.AppendText("\n");
+                                richTextBox1.Text = "Tempelkan Jari";
                             });
                             if (read_buffer[9] == 0x00)
                             {
@@ -162,24 +160,29 @@ namespace Fingerprint_Scanner
                             }
                             break;
                         case 3:
-                            serialPort1.Write(getimage, 0, getimage.Length);
-                            Thread.Sleep(300);
                             if (serialPort1.BytesToRead >= 12) { serialPort1.Read(read_buffer, 0, 12); }
                             this.Invoke((MethodInvoker)delegate ()
                             {
-                                richTextBox1.AppendText(string.Join(", ", read_buffer));
-                                richTextBox1.AppendText("\n");
+                                richTextBox1.Text = "Berhasil";
                             });
-                            if (read_buffer[9] == 0x00 && read_buffer[11] == 0x0A)
-                            {
-                                read_buffer[9] = 0xFF;
-                                step_finger = 4;
-                            }
+                            done = true;
+                            //serialPort1.Write(getimage, 0, getimage.Length);
+                            //Thread.Sleep(300);
+                            //if (serialPort1.BytesToRead >= 12) { serialPort1.Read(read_buffer, 0, 12); }
+                            //this.Invoke((MethodInvoker)delegate ()
+                            //{
+                            //    richTextBox1.Text = "Tempelkan Jari";
+                            //});
+                            //if (read_buffer[9] == 0x00 && read_buffer[11] == 0x0A)
+                            //{
+                            //    read_buffer[9] = 0xFF;
+                            //    step_finger = 4;
+                            //}
                             break;
                         default:
                             this.Invoke((MethodInvoker)delegate ()
                             {
-                                richTextBox1.AppendText("fail\n");
+                                richTextBox1.Text = "Gagal";
                             });
                             done = true;
                             break;
@@ -190,6 +193,7 @@ namespace Fingerprint_Scanner
             {
                 serialPort1.Close();
             }
+            serialPort1.Close();
             Thread.CurrentThread.Abort();
         }
 
