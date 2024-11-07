@@ -1,0 +1,13 @@
+c:\users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\bin\Debug\Fingerprint_Scanner.exe.config
+c:\users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\bin\Debug\Fingerprint_Scanner.exe
+c:\users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\bin\Debug\Fingerprint_Scanner.pdb
+c:\users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\obj\Debug\Fingerprint_Scanner.csprojResolveAssemblyReference.cache
+c:\users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\obj\Debug\Fingerprint_Scanner.Form1.resources
+c:\users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\obj\Debug\Fingerprint_Scanner.Properties.Resources.resources
+c:\users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\obj\Debug\Fingerprint_Scanner.csproj.GenerateResource.Cache
+c:\users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\obj\Debug\Fingerprint_Scanner.exe
+c:\users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\obj\Debug\Fingerprint_Scanner.pdb
+C:\Users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\bin\Debug\Fingerprint_Scanner.exe.manifest
+C:\Users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\bin\Debug\Fingerprint_Scanner.application
+C:\Users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\obj\Debug\Fingerprint_Scanner.exe.manifest
+C:\Users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\obj\Debug\Fingerprint_Scanner.application

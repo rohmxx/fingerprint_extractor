@@ -1,0 +1,8 @@
+C:\Users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\bin\Release\Fingerprint_Scanner.exe.config
+C:\Users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\bin\Release\Fingerprint_Scanner.exe
+C:\Users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\bin\Release\Fingerprint_Scanner.pdb
+C:\Users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\obj\Release\Fingerprint_Scanner.Form1.resources
+C:\Users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\obj\Release\Fingerprint_Scanner.Properties.Resources.resources
+C:\Users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\obj\Release\Fingerprint_Scanner.csproj.GenerateResource.Cache
+C:\Users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\obj\Release\Fingerprint_Scanner.exe
+C:\Users\rohma\onedrive\documents\visual studio 2015\Projects\Fingerprint_Scanner\Fingerprint_Scanner\obj\Release\Fingerprint_Scanner.pdb
